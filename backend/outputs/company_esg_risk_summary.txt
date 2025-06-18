@@ -1,0 +1,62 @@
+📄 ESG Risk Summary Report
+====================================
+🏢 Company Name         : Unknown
+🕒 Date of Analysis     : 2025-06-18 16:11:47
+📊 ESG Term Count       : 887
+⚖️  Total Risk Score     : 1816
+📈 Final ESG Risk Level : Medium Risk
+
+📌 Risk Levels by Category:
+   - Environmental: Medium Risk
+   - Social: Low Risk
+   - Governance: Low Risk
+
+
+🚨 Highest Risky Sentence:
+"deforestation-free in our primary coffee cocoa
+supply chains 100% deforestation-free by 2025 100% deforestation-free by 2025
+100% deforestation-free
+unknown 7.2% unknown 57.7%
+assessed from the sky 0.0% assessed from the sky 18.3%
+92.8% 42.3%
+assessed on 92.8% assessed on 24.0%
+the ground the ground
+of primary supply of primary supply
+chain assessed as traceable to non-very- 0.0% chain assessed as traceable to non-very- 0.0%
+deforestation-free high-risk origin deforestation-free high-risk origin
+93.4%
+kilotonnes 849.1 kilotonnes 337.4
+of primary supply
+chain assessed as
+palm oil sugar
+deforestation-free
+100% deforestation-free 100% deforestation-free
+unknown 4.0% unknown 1.9%
+assessed from the sky 89.4% assessed from the sky 42.5%
+96.0% 98.1%
+unknown 6.5% assessed on 5.9% assessed on 0.7%
+the ground the ground
+of primary supply of primary supply
+assessed from the sky 22.7%
+chain assessed as traceable to non-very- 0.7% chain assessed as traceable to non-very- 54.9%
+assessed on the ground 23.1% deforestation-free high-risk origin deforestation-free high-risk origin
+traceable to non-very-high-risk origin 47.7%
+kilotonnes 458.7 kilotonnes 1 650.7
+kilotonnes 5 185.2
+soy pulp and paper meat
+100% deforestation-free 100% deforestation-free 100% deforestation-free
+unknown 2% unknown 1.8% unknown 0.1%
+assessed from the sky 0.4% assessed from the sky 0.0% assessed from the sky 0.0%
+97.9% 98.2% 99.9%
+assessed on 12.0% assessed on 17.2% assessed on 0.0%
+the ground the ground the ground
+of primary supply of primary supply of primary supply
+chain assessed as traceable to non-very- 85.6% chain assessed as traceable to non-very- 81.0% chain assessed as traceable to non-very- 99.9%
+deforestation-free high-risk origin deforestation-free high-risk origin deforestation-free high-risk origin
+kilotonnes 614.1 kilotonnes 1 252.9 kilotonnes 22.2
+to support complex ecosystems, a during 2023, we: aim to grow 200 million trees by 2030 sdg contributions
+– worked towards 100% deforestation-free primary supply in our supply chain and sourcing landscapes
+resilient food system and a just future
+chains for meat, palm oil, pulp, paper, soy, sugar, cocoa
+trees secured for planting within the year
+and coffee."

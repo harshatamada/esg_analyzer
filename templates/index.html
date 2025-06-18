@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ESG Risk Analyzer</title>
+    <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+    <h1>📄 ESG Risk Analyzer</h1>
+
+    <form action="/analyze" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf,.txt" required>
+        <button type="submit">Analyze ESG Report</button>
+    </form>
+
+    {% if summary_file %}
+    <div class="results">
+        <p>✅ Analysis complete. Download your reports:</p>
+        <a href="{{ url_for('download', filename=summary_file) }}">📥 Download CSV</a><br>
+        <a href="{{ url_for('download', filename=text_summary) }}">📥 Download Text Summary</a>
+    </div>
+    {% endif %}
+</body>
+</html>
