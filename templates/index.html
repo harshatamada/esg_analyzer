@@ -1,23 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>ESG Risk Analyzer</title>
-    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/style.css">
+    <script defer src="/static/script.js"></script>
 </head>
-<body>
-    <h1>📄 ESG Risk Analyzer</h1>
-
-    <form action="/analyze" method="post" enctype="multipart/form-data">
-        <input type="file" name="file" accept=".pdf,.txt" required>
-        <button type="submit">Analyze ESG Report</button>
-    </form>
-
-    {% if summary_file %}
-    <div class="results">
-        <p>✅ Analysis complete. Download your reports:</p>
-        <a href="{{ url_for('download', filename=summary_file) }}">📥 Download CSV</a><br>
-        <a href="{{ url_for('download', filename=text_summary) }}">📥 Download Text Summary</a>
+<body class="dark-mode">
+    <div class="sidebar">
+        <div>
+            <h2>☰ Menu</h2>
+            <ul>
+                <li onclick="showInfo('project')">📋 About the Project</li>
+                <li onclick="showInfo('esg')">🌱 About ESG & Its Uses</li>
+                <li onclick="showInfo('score')">📊 Risk Score Calculation</li>
+                <li onclick="showInfo('custom')">⭐ Why ESG Matters</li>
+            </ul>
+        </div>
+        <div class="toggle">
+            <label for="mode-toggle">☀️ Light Mode</label>
+            <input type="checkbox" id="mode-toggle">
+        </div>
     </div>
-    {% endif %}
+
+    <div class="main">
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.1&auto=format&fit=crop&w=1600&q=80" alt="ESG Mountains">
+        </div>
+
+        <h1>🌍 ESG Risk Analyzer</h1>
+
+        <form action="/analyze" method="POST" enctype="multipart/form-data">
+            <div class="file-input-container">
+                <input type="file" name="file" id="file-upload" accept=".pdf,.txt" required>
+                <label for="file-upload" class="file-input-label" id="file-label">
+                    📄 Choose ESG Report File
+                    <br><small>PDF or TXT files only</small>
+                </label>
+            </div>
+            <button type="submit">📤 Analyze ESG Report</button>
+        </form>
+
+        {% if summary_file %}
+        <div class="results">
+            <button onclick="window.location.href='{{ url_for('download', filename=summary_file) }}'">📥 Download CSV Summary</button>
+            <button onclick="window.location.href='{{ url_for('download', filename=text_summary) }}'">📥 Download Text Summary</button>
+        </div>
+        {% endif %}
+
+        <div class="info-box" id="info-box"></div>
+    </div>
 </body>
 </html>
